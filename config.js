@@ -33,6 +33,8 @@ module.exports = {
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     AFN: process.env.ALL_CAPTION === undefined ? 'Made by Akina' : process.env.ALL_CAPTION,
+    GMS: process.env.GM_MESSAGE === undefined ? 'default' : process.env.GM_MESSAGE,
+    GML: process.env.GM_LOGO === undefined ? 'https://telegra.ph/file/789fd1e8aea57aea4cea3.jpg' : process.env.GM_LOGO,
     AUTOSTICKER: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
